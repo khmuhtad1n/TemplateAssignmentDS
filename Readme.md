@@ -142,6 +142,23 @@ Common issues and solutions:
    - Verify `input.css` has the correct directives
    - Check if `output.css` is being generated
    - Ensure your HTML links to the correct CSS file
+   - By default, Tailwind intellisense didnt give any suggestion. add this to setting.json to make it run
+
+   ```json
+   {
+     "tailwindCSS.includeLanguages": {
+       "html": "html",
+       "javascript": "javascript",
+       "css": "css"
+     },
+     "editor.quickSuggestions": {
+       "strings": true
+     },
+     "files.associations": {
+       "*.css": "tailwindcss"
+     }
+   }
+   ```
 
 3. **Webpack errors**
    - Check if `main.js` exists in the correct location
@@ -151,3 +168,7 @@ Common issues and solutions:
 ---
 
 Made when i cant sleep by KhMuhtadin
+
+```
+
+```
