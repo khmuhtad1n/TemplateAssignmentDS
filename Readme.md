@@ -118,6 +118,8 @@ project-root/
     "@tailwindcss/cli": "^4.0.0",
     "buffer": "^6.0.3",
     "concurrently": "^9.1.2",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.0.0",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
