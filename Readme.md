@@ -7,7 +7,6 @@ A streamlined template for web development with Tailwind CSS and webpack by KhMu
 - 🎨 **Tailwind CSS** - Utility-first CSS framework
 - 📦 **Webpack** - JavaScript module bundler
 - 🔄 **Hot Reload** - Live preview changes
-- 📱 **Responsive Ready** - Mobile-first approach
 
 ## Getting Started
 
